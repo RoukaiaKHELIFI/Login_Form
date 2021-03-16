@@ -1,0 +1,57 @@
+td,th,a,h2,h3,footer{
+    padding:20px;
+    font-family: 'Cantata One', serif;
+    font-size: 20px;
+    color :white;
+}
+label{
+    font-family: 'Cantata One', serif;
+    font-size: 18px;
+    color :white;
+
+}
+
+input[type=submit],input[type=reset]{
+    color :black;
+   
+}
+input[type=submit]:focus,input[type=reset]:focus{
+color :white;
+background-color: black;
+
+}
+input,textarea,select{
+    font-size: 19px;
+
+}
+
+input[type=submit]:hover,input[type=reset]:hover{
+    
+    background-color: grey;
+    
+    }
+   
+#error,#ErNOM,#ErDate{
+
+    color: red; text-align: center;
+}
+input:focus , textarea:focus , select:focus{
+background-color :rgb(165, 160, 160);
+}
+table{
+    margin-left :auto;
+    margin-right :auto;
+}
+body {
+    background-color: #7c0000;
+    background-image: linear-gradient(326deg, #7c0000 0%, #3e0000 74%);
+
+}
+img{
+    background-color: rgba(0,0,0,0);
+}
+
+input[type="date"]{
+    color :black;
+    font-family: 'Cantata One', serif;
+}

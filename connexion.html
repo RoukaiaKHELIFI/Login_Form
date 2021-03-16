@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Groovy - Connexion </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form name ="f" action="#">
+    <script src ="script.js"></script>
+  
+  
+<h1 id="error"></h1>
+
+<nav class="navbar navbar-expand-custom navbar-mainbg">
+    <div class="topnav" id="myTopnav">
+<a href="#acceuil.html">Acceuil</a>
+<a href="#album.html">Album</a>
+<a href="#promos">Promotions</a>
+<a href="#Contact">Contact</a>
+<a href="#Inscriptions">Inscriptions</a>
+</div>
+</nav>
+<hr>
+
+
+         
+  <table id="table">
+    <tr>
+        <th rowspan="9">Fiche Personelle</th>
+
+
+    <tr>
+        <td><label>Nom : </label>
+        </td>
+        <td>
+        <input type="text" title ="Name" id ="Name" class="color">
+        <span id="ErNOM"></span>
+        </td>
+    </tr>
+
+    
+    <tr>
+        <td><label>Prenom : </label></td>
+        <td>
+        <input type="text" title ="FamilyName" id ="prenom"></td>
+       
+    </tr>
+
+    <tr>
+        <td><label>Date De Naissance : </label></td>
+        <td>
+        <input type="date" title ="Date de Naissance" id="daten"></td>
+       <td><span id="ErDate"></span></td>
+    </tr>
+
+    <tr>
+        <td><label>Sexe : </label></td>
+        <td>
+        <input type="radio" name="genre" value ="f" checked> Femme
+        <input type="radio" name="genre" value ="h"> Homme
+    
+    </td>
+    </tr>
+
+
+    <tr>
+        <td><label>Adresse Email : </label></td>
+        <td>
+        <input type="email" title ="email" placeholder="Exemple@gmail.com"></td>
+    </tr>
+
+    <tr>
+        <td><label>Telephone: </label></td>
+        <td>
+        <input type="tel" title ="Phone Number" placeholder="12-345-678" id ="phone"></td>
+    </tr>
+
+    
+<tr>
+    <td><label>Porfession : </label></td>
+    <td>
+    <div>
+        <select id="profi">
+            <option value="0"> Select </option>
+            <option value="1"> khedma1 </option> 
+            <option value="2">khedma2</option>
+            <option value="3">khedma3 </option>
+        </select>
+    </div>
+</td>
+</tr>
+
+
+<tr>
+    <td><label>Adresse : </label></td>
+    <td>
+    <textarea name ="comment" id ="comment" cols="30" rows="2" title="Adresse" ></textarea>
+    </td>
+</tr>
+
+
+
+    </tr>
+<tr>
+<th>Préference : </th>
+<td colspan="2">
+<p>style de music</p>
+<hr>
+<label>
+    <input type="checkbox"> R&B
+</label>
+<label>
+    <input type="checkbox"> Rock
+</label>
+<br>
+<label>
+    <input type="checkbox"> Soul
+</label>
+<label>
+    <input type="checkbox"> Electronic
+</label>
+<br>
+<label>
+    <input type="checkbox"> Jazz
+</label>
+<label>
+    <input type="checkbox"> Classic
+</label>
+</td>
+
+
+</tr>
+<tr>
+    <th rowspan="4">Connexion</th>
+
+<tr>
+    <td><label>Login : </label>
+    </td>
+    <td>
+    <input type="text" title ="Login">
+    </td>
+</tr>
+
+
+<tr>
+    <td><label>Password : </label></td>
+    <td>
+    <input type="password" title ="pw" id="mdp"></td>
+</tr>
+
+<tr>
+    <td><label>Confirmer Mot de passe : </label></td>
+    <td>
+    <input type="password" title ="confirm password" id="mdp2"></td>
+</tr>
+</tr>
+<tr>
+<td>
+
+
+</td>
+
+<td> <input type="submit" value="Connexion" onclick="fun1()"></td>
+<td> <input type="reset" value="Annuler"></td>
+
+
+</tr>
+  </table>
+
+  <hr> 
+  <footer>
+  <address>123, Nowhere Street</address>
+</footer>
+</form>
+</body>
+</html>
